@@ -1,16 +1,9 @@
 header {
     display: flex ;
     justify-content: space-between;
-    align-items: center;
     background-color: #BFC1C4;
     border-bottom: 10px solid #08090A;
     padding: 10px 20px ;
-}
-
-h1 {
-    font-family: 'Press Start 2P', sans-serif;
-    color: #FFF;
-    text-shadow: 5px 5px 0px #000;
 }
 
 nav {
@@ -29,6 +22,8 @@ a {
     transition: color 0.4s ease; /* Tempo de transição da mundaça de cor do texto */
 }
 
+
+/*pseudo-class , cria os botões do antes dos links*/
 a::before{  
     content: "" ;
     background-color: #A7A2A9;
@@ -37,6 +32,7 @@ a::before{
     margin-right: 10px ;
 }
 
+/*Botão download cv*/
 #button {
     display: inline-block;
     background-color: #A7A2A9;
@@ -46,7 +42,7 @@ a::before{
     transition: background-color 0.4s ease, transform 0.4s ease; /* faz uma transição de cor suave */
 }
 
-/* Configurações da estilização do button */
+/* Estilização do button */
 #button:hover {
     background-color:#08090a ; 
     color: #FFF;
@@ -54,7 +50,23 @@ a::before{
 
 }
 
-/* Estilização nos links das tags ´a´ */
+/* Estilização links */
 a:hover {
     color: #fff;
 }
+
+
+/* Feito por mim : Botões */
+.btn {
+    display: inline-flex;
+    background-color: #A7A2A9;
+    box-shadow: 5px 5px 10px #08090a;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+}
+
