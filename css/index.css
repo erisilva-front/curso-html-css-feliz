@@ -54,19 +54,3 @@ a::before{
 a:hover {
     color: #fff;
 }
-
-
-/* Feito por mim : Botões */
-.btn {
-    display: inline-flex;
-    background-color: #A7A2A9;
-    box-shadow: 5px 5px 10px #08090a;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 60px;
-}
-
