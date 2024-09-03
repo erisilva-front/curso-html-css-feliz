@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    background-color: #A7A2A9;
+    color: #000;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #08090a;
+    margin-right: 0;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.4s ease, transform 0.4s ease; /* faz uma transição de cor suave */
+}
+
+
+.button:hover {
+    background-color:#08090a ; 
+    color: #FFF;
+    box-shadow: 5px 5px 0 #A7A2A9;
+    transform: scale(1.1); /* ao passar o mouse sobre mudará o tamanho */
+
+}
