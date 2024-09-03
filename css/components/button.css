@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    background-color: #A7A2A9;
+    background-color: #A7CCED;
     color: #000;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #08090a;
@@ -14,7 +14,7 @@
 .button:hover {
     background-color:#08090a ; 
     color: #FFF;
-    box-shadow: 5px 5px 0 #A7A2A9;
+    box-shadow: 5px 5px 0 #A7CCED;
     transform: scale(1.1); /* ao passar o mouse sobre mudará o tamanho */
 
 }
