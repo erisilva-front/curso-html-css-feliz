@@ -1,0 +1,35 @@
+.section-projects {
+    background-color: #ff87ab;
+    padding-top: 50px;
+    border-bottom: 10px solid #ff99cc;
+}
+
+.wrapper-projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.wrapper-projects .icon1 {
+    background-color: #ffbfdf;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px #fff;
+}
+
+.wrapper-projects .icon2 {
+    background-color: #ff99cc;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px #fff;
+}
+
+.wrapper-projects .icon3 {
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px #fff;
+}
+
