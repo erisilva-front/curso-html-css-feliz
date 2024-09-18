@@ -8,3 +8,9 @@
 .main-section .main-title {
     margin-bottom: 60px;
 }
+
+.main-section.-description {
+    background-color: #F2B5D4;
+    border-bottom: 10px solid #000;
+    padding: 50px;
+}
