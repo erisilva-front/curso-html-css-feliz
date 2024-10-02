@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+   
     
   <body>
         <header class="main-header">
@@ -133,7 +135,7 @@
          <section class="section-projects">
             <h2 class="main-title -second">Projetos</h2>
              <div class="wrapper-projects">
-               <a href="https://www.com" target="_blank">
+               <a href="https:// .com" target="_blank">
                 <figure>
                 <img class="icon1" src="assets/icons/loandig.png" alt="">
              </figure>
@@ -155,12 +157,25 @@
             <h2 class="main-title -second">Sobre</h2>
             <p class="main-description"> Atualmente estou estudando e aprofundando meus conhecimentos na área de Desenvolvimento 
             Web Front-end, focada em aprender as tecnologias e boas práticas para criar interfaces de usuário 
-            interativas e responsivas para sites e aplicações web. Estou em busca de dominar o HTML, CSS e JavaScript, 
-            além de frameworks modernos como React, Vue.js ou Angular. Além de estar desenvolvendo projetos práticos para aplicar 
+            interativas e responsivas para sites e aplicações web. Estou em busca de dominar o HTML, CSS e JavaScript, e 
+            também os frameworks modernos como React, Vue.js ou Angular. Além de estar desenvolvendo projetos práticos para aplicar 
             meus conhecimentos, criando designs interessantes e funcionais para os usuário. 
           </p>
         
          </section>
+
+         <form>
+            <label class="main-label" for="name">Nome:</label>
+            <input type="text" id="name" name="name" required minlength="4" maxlength="15" size="100" />
+
+            <label class="main-label" for="name">E-mail:</label>
+            <input type="email" id="email" pattern=".+@example\.com" size="100" required />
+
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea name="" id="message"></textarea>
+           
+            <input type="submit"/>
+         </form>
 
          <footer class="main-footer">
             <a class="action" href="" target="_blank">
@@ -173,6 +188,5 @@
                 <img src="assets/icons/insta.png" alt="logo do instagram">
             </a>
          </footer>
-
   </body>
  </html>

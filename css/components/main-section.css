@@ -11,6 +11,10 @@
 
 .main-section.-description {
     background-color: #F2B5D4;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid #ff87ab;
     padding: 50px;
+}
+
+.main-section.-form {
+    background-color: #f9d3dd;
 }
