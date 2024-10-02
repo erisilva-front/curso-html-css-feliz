@@ -18,3 +18,7 @@
     transform: scale(1.1); /* ao passar o mouse sobre mudará o tamanho */
 
 }
+
+.main-button.-full {
+    width: 100%;
+}
